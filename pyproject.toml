@@ -118,6 +118,24 @@ extend-ignore = [
     "D103",
     "INP001",
 ]
+"scripts/kuramoto_coupling_op.py" = [
+    "D107",
+    "INP001",
+    "N803",
+    "N806",
+    "PLR2004",
+    "S101",
+]
+"scripts/kuramoto_modal_bench.py" = [
+    "ANN001",
+    "D103",
+    "INP001",
+    "N803",
+    "N806",
+    "PLC0415",
+    "PLR2004",
+    "T201",
+]
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]
